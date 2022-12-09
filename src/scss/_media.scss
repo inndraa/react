@@ -1,0 +1,41 @@
+@media screen and (max-width: 1170px) {
+
+    .menu,
+    .sidemenu {
+        display: none;
+    }
+
+
+    .burger-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .burger-btn span {
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--black);
+        transition: all 0.5s;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .burger-btn span:nth-of-type(2) {
+        top: calc(40% - 5px);
+    }
+
+    .burger-btn span:nth-of-type(3) {
+        top: calc(60% + 5px);
+    }
+
+}

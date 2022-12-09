@@ -1,4 +1,5 @@
 import "./styles/main.min.css";
+
 import Header from "./components/Header";
 import mainSearch from "./images/search.svg";
 import mainImage from "./images/main.png";
@@ -29,7 +30,7 @@ function App() {
           </div>
         </div>
       </section>
-      {/* <section className="details">
+      <section className="details">
         <div className="container">
           <div className="details__inner">
             <div className="details__item">
@@ -133,7 +134,8 @@ function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+      
     </div>
   );
 }
