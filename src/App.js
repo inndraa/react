@@ -1,5 +1,6 @@
 import "./styles/main.min.css";
 
+
 import Header from "./components/Header";
 import mainSearch from "./images/search.svg";
 import mainImage from "./images/main.png";
@@ -12,7 +13,7 @@ function App() {
           <div className="main__inner">
             <div className="main__info">
               <h1 className="main__info-title">
-                O‘zbekistonda eng yangi <br /> mashina shinalari, 30% gacha <br /> chegirma.
+                O‘zbekistonda eng yangi mashina shinalari, 30% gacha chegirma.
               </h1>
               <p className="main__info-text">
                 O‘zbekiston bo‘ylab yetkazib berish bepul.
@@ -25,7 +26,7 @@ function App() {
               </label>
             </div>
             <div className="main__image">
-              <img src={mainImage} alt="main-image-tires" />
+              <img src={mainImage} width="520px" alt="main-image-tires" />
             </div>
           </div>
         </div>
