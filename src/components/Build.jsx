@@ -9,7 +9,7 @@ const Build = () => {
               <div className="build__info-title">
                 Avtomabil ehtiyot qismlari, <br /> eng ishonchli va sifatli.
               </div>
-              <a href="#" className="build__info-link">Barchasi</a>
+              <a href="/" className="build__info-link">Barchasi</a>
             </div>
             <div className="build__image">
               <img src={buildImage} alt="" />
