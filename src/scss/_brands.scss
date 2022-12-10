@@ -14,13 +14,13 @@
     }
     &__item{
         background: var(--light-white);
-        padding: 30px 100px;
-        max-width: 305px;
-        max-height: 180px;
+        padding: 30px 90px;
+        width: 305px;
+        height: 180px;
         display: flex;
         justify-content: center;
     }
-    &__item + &__item{
-        margin-left: 20px;
-    }
+    // &__item + &__item{
+    //     margin-left: 20px;
+    // }
 }
