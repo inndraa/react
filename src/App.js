@@ -6,13 +6,15 @@ import Benefits from "./components/Benefits"
 import Build from "./components/Build";
 import Brands from "./components/Brands";
 import Products from "./components/Products"
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Shop from "./components/Shop";
 function App() {
   return (
     <div className="App">
       <Header/>
       <Main/>
       <Details/>
+      <Shop/>
       <Benefits/>
       <Build/>
       <Products/>
