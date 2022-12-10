@@ -44,12 +44,12 @@ const Shop = () => {
                     <div className="shop__main">
                         <div className="shop__row">
                             <div className="shop__item">
-                                <div class="shop__image">
+                                <div className="shop__image">
                                     <div className="shop__item-image">
                                         <img src={shopImage} alt="" />
                                     </div>
                                 </div>
-                                <div class="shop__info">
+                                <div className="shop__info">
                                     <div className="shop__item-title">
                                         Hankook Kinergy ST H735 all <br /> Season Radial
                                     </div>
@@ -65,13 +65,13 @@ const Shop = () => {
 
                             </div>
                             <div className="shop__item">
-                                <div class="shop__image">
+                                <div className="shop__image">
                                     <div className="shop__item-image">
                                         <img src={shopImage} alt="" />
                                     </div>
                                 </div>
 
-                                <div class="shop__info">
+                                <div className="shop__info">
                                     <div className="shop__item-title">
                                         Hankook Kinergy ST H735 all <br /> Season Radial
                                     </div>
@@ -86,13 +86,13 @@ const Shop = () => {
                                 </div>
                             </div>
                             <div className="shop__item">
-                                <div class="shop__image">
+                                <div className="shop__image">
                                     <div className="shop__item-image">
                                         <img src={shopImage} alt="" />
                                     </div>
                                 </div>
 
-                                <div class="shop__info">
+                                <div className="shop__info">
                                     <div className="shop__item-title">
                                         Hankook Kinergy ST H735 all <br /> Season Radial
                                     </div>
@@ -109,12 +109,12 @@ const Shop = () => {
                         </div>
                         <div className="shop__row">
                             <div className="shop__item">
-                                <div class="shop__image">
+                                <div className="shop__image">
                                     <div className="shop__item-image">
                                         <img src={shopImage} alt="" />
                                     </div>
                                 </div>
-                                <div class="shop__info">
+                                <div className="shop__info">
                                     <div className="shop__item-title">
                                         Hankook Kinergy ST H735 all <br /> Season Radial
                                     </div>
@@ -130,13 +130,13 @@ const Shop = () => {
 
                             </div>
                             <div className="shop__item">
-                                <div class="shop__image">
+                                <div className="shop__image">
                                     <div className="shop__item-image">
                                         <img src={shopImage} alt="" />
                                     </div>
                                 </div>
 
-                                <div class="shop__info">
+                                <div className="shop__info">
                                     <div className="shop__item-title">
                                         Hankook Kinergy ST H735 all <br /> Season Radial
                                     </div>
@@ -151,13 +151,13 @@ const Shop = () => {
                                 </div>
                             </div>
                             <div className="shop__item">
-                                <div class="shop__image">
+                                <div className="shop__image">
                                     <div className="shop__item-image">
                                         <img src={shopImage} alt="" />
                                     </div>
                                 </div>
 
-                                <div class="shop__info">
+                                <div className="shop__info">
                                     <div className="shop__item-title">
                                         Hankook Kinergy ST H735 all <br /> Season Radial
                                     </div>
@@ -174,6 +174,7 @@ const Shop = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     );

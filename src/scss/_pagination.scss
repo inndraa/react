@@ -1,0 +1,36 @@
+.pagination {
+    margin-top: 20px;
+    &__list {
+        display: flex;
+        margin-left: auto;
+    }
+    &__item.prev::before{
+        content: '<';
+        font-size: 18px;
+    }
+    &__item.next::before{
+        content: '>';
+        font-size: 18px;
+    }
+    &__item {
+        padding: 5px 13px;
+        border: 1px solid #DFE3E8;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    &__item+&__item{
+        margin-left: 8px;
+    }
+    &__item:hover{
+        cursor: pointer;
+        border: 1px solid var(--purple);
+        color: var(--purple);
+    }
+}
+
+.active{
+    border: 1px solid var(--purple);
+    color: var(--purple);
+}

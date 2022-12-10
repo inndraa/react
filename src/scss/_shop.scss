@@ -2,7 +2,9 @@
     &__inner {
         display: flex;
     }
-    &__main{}
+    &__main{
+        margin-left: auto;
+    }
     &__sidebar {
         margin-right: 20px;
         background: var(--light-white);

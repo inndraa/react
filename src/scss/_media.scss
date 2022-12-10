@@ -263,20 +263,9 @@
 
 @media screen and (max-width: 1085px) {
     .shop {
-        &__item {}
-
-        &__inner {
-            // display: flex;
-            // align-items: center;
-            // min-width: 100%;
-        }
 
         &__item+&__item {
             margin-left: 10px;
-        }
-
-        &__sidebar {
-            // display: none;
         }
 
         &__sidebar-item-inner {

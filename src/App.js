@@ -8,6 +8,7 @@ import Brands from "./components/Brands";
 import Products from "./components/Products"
 import Footer from "./components/Footer";
 import Shop from "./components/Shop";
+import Pagination from "./components/Pagination";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Main />
       <Details />
       <Shop />
+      <Pagination />
       <Benefits />
       <Build />
       <Products />
