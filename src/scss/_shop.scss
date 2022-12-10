@@ -1,7 +1,6 @@
 .shop {
     &__inner {
         display: flex;
-        // justify-content: space-between;
     }
 
     &__sidebar {
@@ -38,7 +37,6 @@
     &__sidebar-item-inner {
         padding: 18px 130px 18px 15px;
         display: flex;
-        // margin-right: auto;
         text-align: left;
         justify-content: center;
         align-items: center;
@@ -79,10 +77,11 @@
         font-weight: 500;
         font-size: 17px;
         line-height: 22px;
+        margin-bottom: 20px;
     } 
 
     &__item-bottom {
-        margin-top: 20px;
+
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -95,9 +94,7 @@
         justify-content: center;
     }
     &__info {
-        // width: 275px;
-        // width: auto;
-        max-height: 127px;
+
         padding: 20px 20px;
     }
     &__image{
