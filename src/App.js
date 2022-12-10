@@ -11,15 +11,15 @@ import Shop from "./components/Shop";
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Details/>
-      <Shop/>
-      <Benefits/>
-      <Build/>
-      <Products/>
-      <Brands/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Details />
+      <Shop />
+      <Benefits />
+      <Build />
+      <Products />
+      <Brands />
+      <Footer />
     </div>
   );
 }
