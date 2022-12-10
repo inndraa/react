@@ -1,0 +1,38 @@
+.build {
+    margin-bottom: 80px;
+
+    &__inner {
+        align-items: center;
+        display: flex;
+        background: var(--light-white);
+    }
+
+    &__info {
+        padding-left: 40px;
+        padding-right: 95px;
+    }
+
+    &__info-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+        margin-bottom: 40px;
+    }
+
+    &__info-link {
+        position: relative;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        padding: 15px 70px 15px 30px;
+        border: 2px solid var(--black);
+        border-radius: 5px;
+    }
+
+    &__info-link::after {
+        content: url(../images/arrow.svg);
+        position: absolute;
+        top: 18px;
+        left: 150px;
+    }
+}

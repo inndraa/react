@@ -1,0 +1,26 @@
+.brands {
+    margin-bottom: 100px;
+    &__title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 30px;
+        color: var(--black);
+    }
+    &__row{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        background: var(--light-white);
+        padding: 30px 100px;
+        max-width: 305px;
+        max-height: 180px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item + &__item{
+        margin-left: 20px;
+    }
+}
