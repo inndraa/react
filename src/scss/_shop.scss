@@ -2,9 +2,11 @@
     &__inner {
         display: flex;
     }
-    &__main{
+
+    &__main {
         margin-left: auto;
     }
+
     &__sidebar {
         margin-right: 20px;
         background: var(--light-white);
@@ -26,6 +28,14 @@
         position: relative;
     }
 
+    .shop__item {
+        cursor: pointer;
+    }
+
+    .shop__sidebar-item {
+        cursor: pointer;
+    }
+
     &__sidebar-item:hover {
         background: var(--purple);
         color: var(--white);
@@ -39,21 +49,24 @@
     &__sidebar-item-inner {
         padding: 18px 130px 18px 15px;
         display: flex;
-        text-align: left;
-        justify-content: center;
+        // text-align: left;
         align-items: center;
-        text-align: center;
+        // text-align: center;
+        justify-content: space;
     }
-
-    &__sidebar-item::after {
-        content: '';
-        width: 32px;
-        height: 32px;
-        background-image: url(../images/arrow.svg);
-        position: absolute;
-        right: 10px;
-        top: 22px;
+    .dfgadfg{
+        display: flex;  
+        align-items: center;
     }
+        &__sidebar-item::after {
+            content: '';
+            width: 32px;
+            height: 32px;
+            background-image: url(../images/arrow.svg);
+            position: absolute;
+            right: 10px;
+            top: 22px;
+        }
 
     &__sidebar-title {
         font-weight: 500;

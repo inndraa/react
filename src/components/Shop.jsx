@@ -20,8 +20,24 @@ const Shop = () => {
                             </div>
                             <div className="shop__sidebar-item">
                                 <div className="shop__sidebar-item-inner">
-                                    <img className="shop__sidebar-img" src={sidebarImage2} alt="" />
-                                    <p className="shop__sidebar-title">Rullar</p>
+                                    <div className="dfgadfg">
+                                        <img className="shop__sidebar-img" src={sidebarImage2} alt="" />
+                                        <p className="shop__sidebar-title">Rullar</p>
+                                    </div>
+                                    {/* <div className="dsfgsdfg">
+                                        <svg id="shop-arrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_407_301)">
+                                                <path d="M17.5626 16L10.9626 9.40001L12.848 7.51468L21.3333 16L12.848 24.4853L10.9626 22.6L17.5626 16Z" fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_407_301">
+                                                    <rect width="32" height="32" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div> */}
+
+
                                 </div>
 
                             </div>
